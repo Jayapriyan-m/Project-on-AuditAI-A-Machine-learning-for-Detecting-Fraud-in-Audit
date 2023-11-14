@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audit Risk Prediction</title>
+</head>
+<body>
+  <h1>Audit Risk Prediction</h1>
+  <form action="/riskpred" method="POST">
+    <label for="sectorScore">Sector Score:</label>
+    <input type="number" id="sectorScore" name="Sector_score"><br><br>
+
+    <label for="paraA">Para A:</label>
+    <input type="number" id="paraA" name="PARA_A"><br><br>
+
+    <label for="riskA">Risk A:</label>
+    <input type="number" id="riskA" name="Risk_A"><br><br>
+
+    <label for="paraB">Para B:</label>
+    <input type="number" id="paraB" name="PARA_B"><br><br>
+
+    <label for="riskB">Risk B:</label>
+    <input type="number" id="riskB" name="Risk_B"><br><br>
+
+    <label for="total">Total:</label>
+    <input type="number" id="total" name="TOTAL"><br><br>
+
+    <label for="numbers">Numbers:</label>
+    <input type="number" id="numbers" name="numbers"><br><br>
+
+    <label for="moneyValue">Money Value:</label>
+    <input type="number" id="moneyValue" name="Money_Value"><br><br>
+
+    <label for="scoreMv">Score Mv:</label>
+    <input type="number" id="scoreMv" name="Score_MV"><br><br>
+
+    <label for="districtLoss">District Loss:</label>
+    <input type="number" id="districtLoss" name="District_Loss"><br><br>
+
+    <label for="historyScore">History Score:</label>
+    <input type="number" id="historyScore" name="History"><br><br>
+
+    <label for="score">Score:</label>
+    <input type="number" id="score" name="Score"><br><br>
+
+    <label for="inherentRisk">Inherent Risk:</label>
+    <input type="number" id="inherentRisk" name="Inherent_Risk"><br><br>
+
+    <label for="auditRisk">Audit Risk:</label>
+    <input type="number" id="auditRisk" name="Audit_Risk"><br><br>
+
+    <button type="submit">Predict Risk</button>
+  </form>
+
+  <script>
+    function predictRisk() {
+      // Retrieve input values
+      var sectorScore = parseFloat(document.getElementById('sectorScore').value);
+      var paraA = parseFloat(document.getElementById('paraA').value);
+      var riskA = parseFloat(document.getElementById('riskA').value);
+      var paraB = parseFloat(document.getElementById('paraB').value);
+      var riskB = parseFloat(document.getElementById('riskB').value);
+      var total = parseFloat(document.getElementById('total').value);
+      var numbers = parseFloat(document.getElementById('numbers').value);
+      var moneyValue = parseFloat(document.getElementById('moneyValue').value);
+      var scoreMv = parseFloat(document.getElementById('scoreMv').value);
+      var districtLoss = parseFloat(document.getElementById('districtLoss').value);
+      var historyScore = parseFloat(document.getElementById('historyScore').value);
+      var score = parseFloat(document.getElementById('score').value);
+      var inherentRisk = parseFloat(document.getElementById('inherentRisk').value);
+      var auditRisk = parseFloat(document.getElementById('auditRisk').value);
+
+      // Perform any additional processing or validation if needed
+      
+      // No need for the predictRisk function here since the form submission will trigger the request to /riskpred
+    }
+  </script>
+</body>
+</html>
