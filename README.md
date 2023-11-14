@@ -8,7 +8,10 @@ AuditAI employs machine learning to detect fraud in audits. Our project leverage
 pip install flask
 pip install pickle
 ```
-- After these setup, **RUN** the **app.py** python file.
+- After these setup, **RUN** the **app.py** python file by below command,
+  ```
+  python app.py
+  ```
 
 # Contact 
 Jayapriyan.M BE-CSE Student
