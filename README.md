@@ -14,7 +14,7 @@ python app.py
 ```
 
 # Contact 
-Jayapriyan.M BE-CSE Student
-Ph : 7868932481
+Jayapriyan.M    
+BE-CSE Student   
+Ph : 7868932481    
 Email : jayapriyan11802@gmail.com
-
