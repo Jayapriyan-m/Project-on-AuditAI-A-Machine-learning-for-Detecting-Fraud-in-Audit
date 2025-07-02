@@ -14,8 +14,9 @@ python app.py
 ```
 
 # Contact 
-Sulaiman Faris   
-Email : sulaiman11faris@gmail.com
 Jayapriyan.M     
 Ph : 7868932481    
 Email : jayapriyan11802@gmail.com
+
+Sulaiman Faris   
+Email : sulaiman11faris@gmail.com
